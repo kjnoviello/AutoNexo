@@ -1,0 +1,20 @@
+.box-color{
+    background-color: #0b3238d1;
+    background-color: #275267d9;
+    border: groove;
+}
+
+.container-custom {
+    padding-inline: 30vh;
+}
+
+@media (max-width: 760px) {
+    .container-custom {
+        padding-inline: 10vh;
+    }
+}
+@media (max-width: 576px) {
+    .container-custom {
+        padding-inline:0vh;
+    }
+}
