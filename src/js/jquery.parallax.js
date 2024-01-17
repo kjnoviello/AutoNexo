@@ -14,7 +14,7 @@ http://www.gnu.org/licenses/gpl.html
 (function( $ ){
 	var $window = $(window);
 	var windowHeight = $window.height();
-
+	
 	$window.resize(function () {
 		windowHeight = $window.height();
 	});
@@ -23,11 +23,11 @@ http://www.gnu.org/licenses/gpl.html
 		var $this = $(this);
 		var getHeight;
 		var firstTop;
-		var paddingTop = 0;
+		// var paddingTop = 0;
 		
 		//get the starting position of each element to have parallax applied to it		
 		$this.each(function(){
-		    firstTop = $this.offset().top;
+			firstTop = $this.offset().top;
 		});
 
 		if (outerHeight) {

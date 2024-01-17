@@ -5,6 +5,8 @@ App Landing Template
 http://www.templatemo.com/tm-474-app-landing
 
 */
+// import {$, jQuery } from 'jquery';
+
 jQuery(document).ready(function(){
     // jQuery.templatemo_is_chrome
     $.templatemo_is_chrome = /chrom(e|ium)/.test(navigator.userAgent.toLowerCase());
