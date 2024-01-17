@@ -1,11 +1,21 @@
 import './App.css'
-import BasicExample from './component/container/Test'
+import Contact from './pages/Contact/Contact'
+import Download from './pages/Download/Download'
+import Features from './pages/Features/Features'
+import Footer from './pages/Footer/Footer'
+import Home from './pages/Home/Home'
+import Navbar from './pages/Navbar/Navbar'
 
 function App() {
 
   return (
     <>
-      <BasicExample></BasicExample>
+      <Navbar></Navbar>
+      <Home></Home>
+      <Features></Features>
+      <Download></Download>
+      <Contact></Contact>
+      <Footer></Footer>
     </>
   )
 }
